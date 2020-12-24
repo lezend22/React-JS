@@ -1,6 +1,6 @@
 import React from "react"; //you can put more component in application
 import axios from "axios";
-import Movie from "../components/Movie.js";
+import Movie from "../components/Movie";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -38,6 +38,7 @@ class Home extends React.Component {
           <div className="movies">
             {movies.map((movie) => (
               <Movie
+                id={movie.id}
                 key={movie.id}
                 year={movie.year}
                 title={movie.title}

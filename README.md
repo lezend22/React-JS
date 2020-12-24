@@ -1,4 +1,4 @@
-# React JS APP
+# React JS Movie rating APP
 
-configuration
-**_will post urls on here soon_**
+check in
+https://lezend22.github.io/react-js-movie-app
